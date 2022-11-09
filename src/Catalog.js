@@ -16,7 +16,7 @@ function Catalog () {
     return(
         <div className="container-catalog">
             <Button filteredProduct = {chosenProduct}/>
-            <Product card={product}/>chosenProduct
+            <Product card={product}/>
         </div>
     )
 }
