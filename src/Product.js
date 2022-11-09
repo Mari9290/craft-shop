@@ -4,7 +4,7 @@ function Product({card}) {
             {card.map((element=>{
                 const{id, name, attribute, price, image} = element;
                 return <div key={id} className='container-card'>
-                    <img className="foto" src={image} alt={name}/>
+                    <img className="foto" src={image} alt={attribute}/>
                     <div>
                     <p className="par">{name}</p>
                     <p className="par">{price}</p>

@@ -4,7 +4,7 @@ import { dataTwo } from "./dataTwo";
 function Slides() {
 
     const [decor, setDecor] = useState(0);
-    const{id, name, image} = dataTwo[decor];
+    const{name, image} = dataTwo[decor];
 
     const nextDecor = () => {
         setDecor((decor =>{
